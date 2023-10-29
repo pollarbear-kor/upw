@@ -1,0 +1,80 @@
+body{
+    font-size: 20px;
+    margin: 5vh 5vh 0 5vh; /*width max: 195vh, height max: 100*/
+}
+
+.title{
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 5vh;
+}
+
+.container{
+    display: flex;
+}
+
+#map {
+    width: 90vh;
+    height: 78vh;
+    margin: 0vh 3vh 3vh 5vh; 
+    border-radius: 2rem;
+}
+
+
+
+
+/*테이블*/
+.wifi_container{
+    margin: 0 5vh 0 5vh;
+    width: 75vh;
+    height: 50.4vh;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+}
+
+.wifi_list_title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1vh 0 3vh 0;
+}
+
+.wifi_list{
+    align-items: flex-start; /* 위로 정렬 */
+    width: 75vh;
+    height: 42vh;
+    font-size: 1.2rem;
+    background-color: rgb(255, 237, 237);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    transition: background-color 0.3s ease; /* 배경색 변화를 부드럽게 만듦 */
+}
+
+.table:hover {
+    background-color: lightblue; /* 마우스 호버 상태에서 배경 색상 변경 */
+}
+
+
+tr{
+    height: 5vh;
+    background-color: rgb(242, 247, 222);
+}
+
+.td_p{
+    margin: 0.2vh 0.2vh 0.2vh 1vh;
+}
+
+th,td{
+    text-align: left;
+    border: 1px solid #000;        
+}
+
+.wifi_speed {
+    width: 20vh;
+}
+
